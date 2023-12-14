@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D13E4EF92B2B8C34000ACEAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E4EF82B2B8C34000ACEAE /* AppDelegate.swift */; };
+		D13E4EFB2B2B8C34000ACEAE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D13E4EFA2B2B8C34000ACEAE /* GameScene.sks */; };
+		D13E4EFD2B2B8C34000ACEAE /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = D13E4EFC2B2B8C34000ACEAE /* Actions.sks */; };
+		D13E4EFF2B2B8C34000ACEAE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E4EFE2B2B8C34000ACEAE /* GameScene.swift */; };
+		D13E4F012B2B8C34000ACEAE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E4F002B2B8C34000ACEAE /* GameViewController.swift */; };
+		D13E4F042B2B8C34000ACEAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13E4F022B2B8C34000ACEAE /* Main.storyboard */; };
+		D13E4F062B2B8C35000ACEAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13E4F052B2B8C35000ACEAE /* Assets.xcassets */; };
+		D13E4F092B2B8C35000ACEAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13E4F072B2B8C35000ACEAE /* LaunchScreen.storyboard */; };
+		D13E4F132B2B8C35000ACEAE /* Sheep_the_SheepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E4F122B2B8C35000ACEAE /* Sheep_the_SheepTests.swift */; };
+		D13E4F1D2B2B8C35000ACEAE /* Sheep_the_SheepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E4F1C2B2B8C35000ACEAE /* Sheep_the_SheepUITests.swift */; };
+		D13E4F1F2B2B8C35000ACEAE /* Sheep_the_SheepUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E4F1E2B2B8C35000ACEAE /* Sheep_the_SheepUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D13E4F0F2B2B8C35000ACEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13E4EED2B2B8C33000ACEAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D13E4EF42B2B8C34000ACEAE;
+			remoteInfo = "Sheep the Sheep";
+		};
+		D13E4F192B2B8C35000ACEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D13E4EED2B2B8C33000ACEAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D13E4EF42B2B8C34000ACEAE;
+			remoteInfo = "Sheep the Sheep";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D13E4EF52B2B8C34000ACEAE /* Sheep the Sheep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sheep the Sheep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13E4EF82B2B8C34000ACEAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D13E4EFA2B2B8C34000ACEAE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D13E4EFC2B2B8C34000ACEAE /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		D13E4EFE2B2B8C34000ACEAE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D13E4F002B2B8C34000ACEAE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D13E4F032B2B8C34000ACEAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D13E4F052B2B8C35000ACEAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D13E4F082B2B8C35000ACEAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D13E4F0E2B2B8C35000ACEAE /* Sheep the SheepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sheep the SheepTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13E4F122B2B8C35000ACEAE /* Sheep_the_SheepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheep_the_SheepTests.swift; sourceTree = "<group>"; };
+		D13E4F182B2B8C35000ACEAE /* Sheep the SheepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sheep the SheepUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13E4F1C2B2B8C35000ACEAE /* Sheep_the_SheepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheep_the_SheepUITests.swift; sourceTree = "<group>"; };
+		D13E4F1E2B2B8C35000ACEAE /* Sheep_the_SheepUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheep_the_SheepUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D13E4EF22B2B8C34000ACEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13E4F0B2B2B8C35000ACEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13E4F152B2B8C35000ACEAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D13E4EEC2B2B8C33000ACEAE = {
+			isa = PBXGroup;
+			children = (
+				D13E4EF72B2B8C34000ACEAE /* Sheep the Sheep */,
+				D13E4F112B2B8C35000ACEAE /* Sheep the SheepTests */,
+				D13E4F1B2B2B8C35000ACEAE /* Sheep the SheepUITests */,
+				D13E4EF62B2B8C34000ACEAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D13E4EF62B2B8C34000ACEAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D13E4EF52B2B8C34000ACEAE /* Sheep the Sheep.app */,
+				D13E4F0E2B2B8C35000ACEAE /* Sheep the SheepTests.xctest */,
+				D13E4F182B2B8C35000ACEAE /* Sheep the SheepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D13E4EF72B2B8C34000ACEAE /* Sheep the Sheep */ = {
+			isa = PBXGroup;
+			children = (
+				D13E4EF82B2B8C34000ACEAE /* AppDelegate.swift */,
+				D13E4EFA2B2B8C34000ACEAE /* GameScene.sks */,
+				D13E4EFC2B2B8C34000ACEAE /* Actions.sks */,
+				D13E4EFE2B2B8C34000ACEAE /* GameScene.swift */,
+				D13E4F002B2B8C34000ACEAE /* GameViewController.swift */,
+				D13E4F022B2B8C34000ACEAE /* Main.storyboard */,
+				D13E4F052B2B8C35000ACEAE /* Assets.xcassets */,
+				D13E4F072B2B8C35000ACEAE /* LaunchScreen.storyboard */,
+			);
+			path = "Sheep the Sheep";
+			sourceTree = "<group>";
+		};
+		D13E4F112B2B8C35000ACEAE /* Sheep the SheepTests */ = {
+			isa = PBXGroup;
+			children = (
+				D13E4F122B2B8C35000ACEAE /* Sheep_the_SheepTests.swift */,
+			);
+			path = "Sheep the SheepTests";
+			sourceTree = "<group>";
+		};
+		D13E4F1B2B2B8C35000ACEAE /* Sheep the SheepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D13E4F1C2B2B8C35000ACEAE /* Sheep_the_SheepUITests.swift */,
+				D13E4F1E2B2B8C35000ACEAE /* Sheep_the_SheepUITestsLaunchTests.swift */,
+			);
+			path = "Sheep the SheepUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D13E4EF42B2B8C34000ACEAE /* Sheep the Sheep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13E4F222B2B8C35000ACEAE /* Build configuration list for PBXNativeTarget "Sheep the Sheep" */;
+			buildPhases = (
+				D13E4EF12B2B8C34000ACEAE /* Sources */,
+				D13E4EF22B2B8C34000ACEAE /* Frameworks */,
+				D13E4EF32B2B8C34000ACEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sheep the Sheep";
+			productName = "Sheep the Sheep";
+			productReference = D13E4EF52B2B8C34000ACEAE /* Sheep the Sheep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D13E4F0D2B2B8C35000ACEAE /* Sheep the SheepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13E4F252B2B8C35000ACEAE /* Build configuration list for PBXNativeTarget "Sheep the SheepTests" */;
+			buildPhases = (
+				D13E4F0A2B2B8C35000ACEAE /* Sources */,
+				D13E4F0B2B2B8C35000ACEAE /* Frameworks */,
+				D13E4F0C2B2B8C35000ACEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13E4F102B2B8C35000ACEAE /* PBXTargetDependency */,
+			);
+			name = "Sheep the SheepTests";
+			productName = "Sheep the SheepTests";
+			productReference = D13E4F0E2B2B8C35000ACEAE /* Sheep the SheepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D13E4F172B2B8C35000ACEAE /* Sheep the SheepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13E4F282B2B8C35000ACEAE /* Build configuration list for PBXNativeTarget "Sheep the SheepUITests" */;
+			buildPhases = (
+				D13E4F142B2B8C35000ACEAE /* Sources */,
+				D13E4F152B2B8C35000ACEAE /* Frameworks */,
+				D13E4F162B2B8C35000ACEAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D13E4F1A2B2B8C35000ACEAE /* PBXTargetDependency */,
+			);
+			name = "Sheep the SheepUITests";
+			productName = "Sheep the SheepUITests";
+			productReference = D13E4F182B2B8C35000ACEAE /* Sheep the SheepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D13E4EED2B2B8C33000ACEAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D13E4EF42B2B8C34000ACEAE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D13E4F0D2B2B8C35000ACEAE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D13E4EF42B2B8C34000ACEAE;
+					};
+					D13E4F172B2B8C35000ACEAE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D13E4EF42B2B8C34000ACEAE;
+					};
+				};
+			};
+			buildConfigurationList = D13E4EF02B2B8C33000ACEAE /* Build configuration list for PBXProject "Sheep the Sheep" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D13E4EEC2B2B8C33000ACEAE;
+			productRefGroup = D13E4EF62B2B8C34000ACEAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D13E4EF42B2B8C34000ACEAE /* Sheep the Sheep */,
+				D13E4F0D2B2B8C35000ACEAE /* Sheep the SheepTests */,
+				D13E4F172B2B8C35000ACEAE /* Sheep the SheepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D13E4EF32B2B8C34000ACEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13E4F042B2B8C34000ACEAE /* Main.storyboard in Resources */,
+				D13E4EFB2B2B8C34000ACEAE /* GameScene.sks in Resources */,
+				D13E4F062B2B8C35000ACEAE /* Assets.xcassets in Resources */,
+				D13E4F092B2B8C35000ACEAE /* LaunchScreen.storyboard in Resources */,
+				D13E4EFD2B2B8C34000ACEAE /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13E4F0C2B2B8C35000ACEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13E4F162B2B8C35000ACEAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D13E4EF12B2B8C34000ACEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13E4EFF2B2B8C34000ACEAE /* GameScene.swift in Sources */,
+				D13E4F012B2B8C34000ACEAE /* GameViewController.swift in Sources */,
+				D13E4EF92B2B8C34000ACEAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13E4F0A2B2B8C35000ACEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13E4F132B2B8C35000ACEAE /* Sheep_the_SheepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13E4F142B2B8C35000ACEAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13E4F1F2B2B8C35000ACEAE /* Sheep_the_SheepUITestsLaunchTests.swift in Sources */,
+				D13E4F1D2B2B8C35000ACEAE /* Sheep_the_SheepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D13E4F102B2B8C35000ACEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D13E4EF42B2B8C34000ACEAE /* Sheep the Sheep */;
+			targetProxy = D13E4F0F2B2B8C35000ACEAE /* PBXContainerItemProxy */;
+		};
+		D13E4F1A2B2B8C35000ACEAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D13E4EF42B2B8C34000ACEAE /* Sheep the Sheep */;
+			targetProxy = D13E4F192B2B8C35000ACEAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D13E4F022B2B8C34000ACEAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13E4F032B2B8C34000ACEAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D13E4F072B2B8C35000ACEAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13E4F082B2B8C35000ACEAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D13E4F202B2B8C35000ACEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D13E4F212B2B8C35000ACEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D13E4F232B2B8C35000ACEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "farm.Sheep-the-Sheep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D13E4F242B2B8C35000ACEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "farm.Sheep-the-Sheep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D13E4F262B2B8C35000ACEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "farm.Sheep-the-SheepTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sheep the Sheep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sheep the Sheep";
+			};
+			name = Debug;
+		};
+		D13E4F272B2B8C35000ACEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "farm.Sheep-the-SheepTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sheep the Sheep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sheep the Sheep";
+			};
+			name = Release;
+		};
+		D13E4F292B2B8C35000ACEAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "farm.Sheep-the-SheepUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sheep the Sheep";
+			};
+			name = Debug;
+		};
+		D13E4F2A2B2B8C35000ACEAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "farm.Sheep-the-SheepUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sheep the Sheep";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D13E4EF02B2B8C33000ACEAE /* Build configuration list for PBXProject "Sheep the Sheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13E4F202B2B8C35000ACEAE /* Debug */,
+				D13E4F212B2B8C35000ACEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13E4F222B2B8C35000ACEAE /* Build configuration list for PBXNativeTarget "Sheep the Sheep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13E4F232B2B8C35000ACEAE /* Debug */,
+				D13E4F242B2B8C35000ACEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13E4F252B2B8C35000ACEAE /* Build configuration list for PBXNativeTarget "Sheep the SheepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13E4F262B2B8C35000ACEAE /* Debug */,
+				D13E4F272B2B8C35000ACEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13E4F282B2B8C35000ACEAE /* Build configuration list for PBXNativeTarget "Sheep the SheepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13E4F292B2B8C35000ACEAE /* Debug */,
+				D13E4F2A2B2B8C35000ACEAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D13E4EED2B2B8C33000ACEAE /* Project object */;
+}
